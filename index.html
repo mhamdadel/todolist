@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammed Adel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" name="" id="newTodo">
+    <input type="button" name="" id="addTodo" value="add todo">
+    <input type="search" name="" id="search" placeholder="enter what you are want to search about">
+
+    <table id="todoList">
+        <thead>
+            <tr>
+                <th rowspan="3">TODO List</th>
+            </tr>
+        </thead>
+        <tbody id="todoListBody">
+            <tr>
+                <td class="data"><span>Muhammed</span></td>
+                <td class="finished"><input type="checkbox"></td>
+                <td class="close"><span>X</span></td>
+            </tr>
+            <tr>
+                <td class="data"><span>Adel</span></td>
+                <td class="finished"><input type="checkbox"></td>
+                <td class="close"><span>X</span></td>
+            </tr>
+            <tr>
+                <td class="data"><span>Hamed</span></td>
+                <td class="finished"><input type="checkbox"></td>
+                <td class="close"><span>X</span></td>
+            </tr>
+        </tbody>
+    </table>
+    <table id="finishedList">
+        <thead>
+            <tr>
+                <th rowspan="3">finished List</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="data"><span>make this task</span></td>
+                <td class="finished"><input type="checkbox" checked></td>
+                <td class="close"><span>X</span></td>
+            </tr>
+            <tr>
+                <td class="data"><span>make this task</span></td>
+                <td class="finished"><input type="checkbox" checked></td>
+                <td class="close"><span>X</span></td>
+            </tr>
+            <tr>
+                <td class="data"><span>make this task</span></td>
+                <td class="finished"><input type="checkbox" checked></td>
+                <td class="close"><span>X</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+.close {
+    cursor: pointer;
+    color: red;
+}
+
+#finishedList tr {
+    text-decoration: line-through;
+}
